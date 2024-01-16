@@ -24,6 +24,7 @@ print(people.alphabetize_names())
 print(numbers.sort_absolutes())
 print(list_of_strings.sort_vowels())
 print(list_of_numbers.sort_numbers())
+print()
 
 
 
