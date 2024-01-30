@@ -1,6 +1,7 @@
-def myzip(numbers, letters):
+def myzip(*args):
 
-    result = zip(numbers,letters)
+    result = zip(*args)
     return list(result)
 
-print(myzip([10,20,30],'abc'))
+
+print(myzip([10,20,30],'abc','dfg'))
