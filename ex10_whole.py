@@ -64,7 +64,7 @@ class Summing:
 sum = Summing(1,2,3,4)
 bigger = Summing([1,2,3],[4,5,6])
 numeric = Summing(10, 20, 'a', '30','bcd')
-dict_list = Summing({'x': 10, 'y': 8}, {'a': 6, 'y': 4}, {'a': 2, 'c': 7},{'l':4, 'y':0})
+dict_list = Summing({'x': 10, 'y': 8}, {'a': 6, 'y': 4}, {'a': 2, 'c': 7}, {'l': 4, 'y': 0})
 
 print(sum.mysum())
 print(bigger.mysum_bigger_than())

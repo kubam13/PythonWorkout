@@ -6,13 +6,13 @@ class Exercise11:
         return sorted(self.variable, key=lambda i: (i['last'], i['first']))
 
     def sort_absolutes(self):
-        return sorted(self.variable, key=lambda i: abs(i))
+        return sorted(self.variable, key=abs)
 
     def sort_vowels(self):
         return sorted(self.variable, key=lambda string: sum(i in 'aeiou' for i in string))
 
     def sort_numbers(self):
-        return sorted(self.variable, key=lambda number: sum(number))
+        return sorted(self.variable, key=sum)
 
 
 people = Exercise11([{'first':'Reuven', 'last':'Lerner', 'email':'reuven@lerner.co.il'}, {'first':'Donald', 'last':'Trump','email':'president@whitehouse.gov'}, {'first':'Vladimir', 'last':'Putin', 'email':'president@kremvax.ru'}])
