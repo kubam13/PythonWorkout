@@ -77,5 +77,5 @@ class Exercise15:
 
 #Exercise15.get_rainfall()
 #Exercise15.get_rainfall_avg()
-#Exercise15.create_ip_list()
-Exercise15.words_length()
+Exercise15.create_ip_list()
+#Exercise15.words_length()

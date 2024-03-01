@@ -1,0 +1,5 @@
+nobody	-2
+root	0
+daemon	1
+_uucp	4
+_taskgated	13

@@ -48,8 +48,8 @@ class Exercise17:
 NUMBERS = Exercise17([1, 2, 3, 1, 2, 3, 4, 1, 5, 7, 5])
 
 #NUMBERS.how_many_different_numbers()
-#Exercise17.different_ip()
+Exercise17.different_ip()
 #Exercise17.different_response_codes()
-Exercise17.names_in_directory()
+#Exercise17.names_in_directory()
 
 
