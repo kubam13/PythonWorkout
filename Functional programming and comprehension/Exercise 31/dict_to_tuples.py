@@ -1,5 +1,5 @@
 def dict_to_tuples(list_of_dicts):
-    list_of_tuples = [(key, value) for single_dict in list_of_dicts for key, value in single_dict.items()]
+    list_of_tuples = [pair for single_dict in list_of_dicts for pair in single_dict.items()]
     return list_of_tuples
 
 

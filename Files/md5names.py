@@ -12,4 +12,4 @@ def names_to_md5(directory):
         print(f'{full_path}: {result.hexdigest()}')
 
 
-names_to_md5('directory for texts')
+names_to_md5('Files')

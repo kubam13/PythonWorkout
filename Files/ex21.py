@@ -21,4 +21,4 @@ def all_longest_words(directory):
 
 
 print(find_longest('second_sample.txt'))
-print(all_longest_words('directory for texts'))
+print(all_longest_words('Files'))
