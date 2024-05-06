@@ -4,9 +4,9 @@ class FlexibleDict(dict):
             if key in self:
                 pass
             elif str(key) in self:
-                item = str(key)
+                key = str(key)
             elif int(key) in self:
-                item = int(key)
+                key = int(key)
         except ValueError:
             pass
         return dict.__getitem__(self, key)
