@@ -4,13 +4,12 @@ from zoo import Zoo
 
 
 def transfer_animals(self, target_zoo, animal):
+    target_zoo.cages_in_zoo[0].add_animals(animal)
     for one_cage in self.cages_in_zoo:
         for one_animal in one_cage.animals_in_cage:
             if one_animal == animal:
                 one_cage.animals_in_cage.remove(animal)
                 break
-
-    target_zoo.cages_in_zoo[0].animals_in_cage.append(animal)
 
 
 Zoo.transfer_animals = transfer_animals

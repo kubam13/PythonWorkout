@@ -18,10 +18,10 @@ for index, letter in MyEnumerate('abc'):
     print(f'{index}: {letter}')
 
 
-# e = MyEnumerate('def')
-# print('** A **')
-# for index, one_item in e:
-#     print(f'{index}: {one_item}')
-# print('** B **')
-# for index, one_item in e:
-#     print(f'{index}: {one_item}')
+e = MyEnumerate('def')
+print('** A **')
+for index, one_item in e:
+    print(f'{index}: {one_item}')
+print('** B **')
+for index, one_item in e:
+    print(f'{index}: {one_item}')

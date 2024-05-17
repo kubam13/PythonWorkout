@@ -16,6 +16,6 @@ class MyEnumerate:
         return value
 
 
-e = MyEnumerate('abc')
+e = MyEnumerate('abc', 1)
 for index, letter in e:
     print(f'{index}: {letter}')

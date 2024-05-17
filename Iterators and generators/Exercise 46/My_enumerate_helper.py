@@ -6,13 +6,6 @@ class MyEnumerate:
     def __iter__(self):
         return MyEnumerateIterator(self.data)
 
-    def __next__(self):
-        if self.index >= len(self.data):
-            raise StopIteration
-        value = (self.index, self.data[self.index])
-        self.index += 1
-        return value
-
 
 class MyEnumerateIterator:
     def __init__(self, data):
